@@ -56,13 +56,6 @@ body {
 }
 
 
-.hover-button {
-    cursor: pointer;
-    border: 2px solid black;
-    color: blueviolet;
-}
-
-
 .endCredits {
     display: flex;
     justify-content:space-evenly;
