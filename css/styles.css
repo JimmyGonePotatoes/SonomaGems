@@ -5,10 +5,8 @@ html {
     box-sizing: border-box;
 }
 
-
 body {
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
 }
 
 .left {
@@ -24,21 +22,25 @@ body {
     right: 5px;
 }
 
+/* The title and bottom motto */
 
 #title {
     position: relative;
-    top: 80px;
-    left: 50%;
-    transform: translate( -50%, -5%);
+    text-align: center;
+    font-size: 50px;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
 }
 
 .smallDesc {
     position: relative;
-    top: 80px;
-    font-family: 'Times New Roman', Times, serif;
-    font-style: italic;
+    bottom: 30px;
     text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-style: italic;
     font-size: 20px;
+    color: rgb(255, 255, 255);
 }
 
 .flex-content {
@@ -46,8 +48,8 @@ body {
     justify-content:space-evenly;
     flex-wrap: wrap;
     gap: 5;
-    margin-top: 70px;
-    margin-bottom: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 
@@ -57,6 +59,7 @@ body {
     position:relative;
     width: 250px;
     height: 450px;
+    clip-path: ellipse();
 }
 
 .image_img {
@@ -73,7 +76,7 @@ body {
     background: rgb(0, 0, 0, 0.6);
     color: rgb(255, 255, 255);
     display: flex;
-    font-family: monospace;
+    font-family:Helvetica, sans-serif;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -115,25 +118,30 @@ body {
     font-weight: 0.25em;
 }
 
+.link-text {
+    color: white;
+}
+
 /* Ending tabs for the page */
 
 .endCredits {
     display: flex;
     justify-content:space-evenly;
-    gap: 1;
+    align-items: center;
     position: relative;
-    bottom: 50px;
-    left: 0;
-    right: 0;
+    bottom: 0px;
+    color: rgb(255, 255, 255);
 }
 
 .endPage {
-   border: 2px solid rgb(255, 255, 255);
    height: 20px;
-   width: 150px;
+   width: 250px;
    text-align: center;
-   font-style: italic;
-   font-family: 'Times New Roman', Times, serif;
+   font-family: Helvetica, sans-serif;
+   font-style:italic;
+   font-size: 12px;
+   border-radius: 400px 30px;
+   border: 2px solid rgb(255, 254, 254);
 }
 
 
